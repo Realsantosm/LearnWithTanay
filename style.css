@@ -1,0 +1,15 @@
+body{
+    color: red;
+}
+
+h1{
+    color: orange;
+}
+
+#library-1{
+    columns: green;
+}
+
+.para{
+    color: black;
+}
