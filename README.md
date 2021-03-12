@@ -1,2 +1,0 @@
-# LearnWithTanay
-Create a Blog
