@@ -1,15 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
 body{
-    color: red;
+    font-family: 'Montserrat', sans-serif;
 }
 
-h1{
-    color: orange;
-}
-
-#library-1{
-    columns: green;
-}
-
-.para{
-    color: black;
+/**Container**/
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
