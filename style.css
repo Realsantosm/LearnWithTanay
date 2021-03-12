@@ -13,3 +13,9 @@ body{
     max-width: 600px;
     margin: auto;
 }
+
+/** Links **/
+
+.primary-link{
+    color: var(--primary-color);
+}
