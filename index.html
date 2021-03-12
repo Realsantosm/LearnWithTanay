@@ -38,7 +38,8 @@
 
     <h2>@List</h2>
     <h3>Un-ordered list</h3>
-    <ul>
+    <p>This list will not have the bullet.</p>
+    <ul class="list-non-bullet">
         <li>Item list</li>
         <li>Item list</li>
         <li>Item list</li>
@@ -46,10 +47,10 @@
     </ul>
     <h3>Unordered List</h3>
     <ul>
-        <li>Inline item one</li>
-        <li>Inline item two</li>
-        <li>Inline item three</li>
-        <li>Inline item four</li>
+        <li class="list-item-inline">Inline item one</li>
+        <li class="list-item-inline">Inline item two</li>
+        <li class="list-item-inline">Inline item three</li>
+        <li class="list-item-inline">Inline item four</li>
     </ul>
 
     
@@ -61,23 +62,48 @@
         <li>Inline item three</li>
         <li>Inline item four</li>
     </ol>
+    <h3>Reverse Ordered List</h3>
+    <ol reversed>
+        <li>Inline item one</li>
+        <li>Inline item two</li>
+        <li>Inline item three</li>
+        <li>Inline item four</li>
+    </ol>
+   
     <hr>
     <h2>@nav</h2>
-    <nav>
-        <div>iAmBrandDeveloper</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <nav class="navigation container">
+        <div nav-brand>iAmBrandDeveloper</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
             </li>
         </ul>
     </nav>
     <hr>
+
+    <!-- /**Nav it now -->
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="topnav-right">
+          <a href="#search">Search</a>
+          <a href="#about">About</a>
+        </div>
+      </div>
+      <hr>
+
+
+
+
+
     <h2>@Header</h2>
     <header>
         <img src="https://unsplash.com/photos/vpOeXr5wmR4"/>
